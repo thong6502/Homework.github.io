@@ -1,0 +1,120 @@
+#main {
+    background: url(../img/thuyen.jpg) top center /cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    display: inline-block;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 31%;
+    position: relative;
+}
+
+.information-content {
+    width: calc(100% - 32px);
+    margin: 52px 16px;
+    margin-bottom: 0;
+    height: calc(100% - 52px);
+}
+
+.information-content-header {
+    padding: 6px 0 6px 12px;
+    margin-left: 66px;
+    margin-bottom: 16px;
+    color: #fff;
+    display: inline-block;
+    border-left: 5px solid #c4b057;
+    font-size: 1.7rem;
+}
+
+.information-content-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.information-content-item {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-content-item + 
+.information-content-item {
+    margin-top: 20px;
+}
+
+.information-content-img {
+    display: inline-block;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.information-img1 {
+    background: url(../img/jack.jpg) center /cover no-repeat;
+}
+
+.information-img2 {
+    background: url(../img/Hector-Barbossa\ .jpg) center /cover no-repeat;
+}
+
+.information-img3 {
+    background: url(../img/figure.jpg) center /cover no-repeat;
+}
+
+
+.information-content-footer {
+    display: inline-block;
+    width: calc(100% - 148px);
+    margin-top: 8px;
+}
+
+.information-content-name {
+    font-size: 2.1rem;
+}
+
+.information-content-icon {
+    margin: 4px 0;
+}
+
+.icon-star {
+    color:red;
+    font-size: 1.2rem;
+}
+
+.information-content-text {
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+}
+
+.information-content-text span {
+    color: #efff00;
+    font-style: italic;
+}
+
+.paragraph {
+    position: absolute;
+    display: inline-block;
+    top: 14%;
+    right: 6%;
+    color: #fff;
+    transform: rotate(-8deg);
+}
+
+.paragraph-text {
+    font-size: 6.1rem;
+    color: #c4b057;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.paragraph-size-l {
+    font-size: 7.1rem;
+    margin-left: 80px;
+    margin-top: 42px;
+}
