@@ -109,14 +109,18 @@ li.information-content-item:hover .information-content-img {
     top: 14%;
     right: 6%;
     color: #fff;
+    transition: .8s;
+    transition-timing-function: linear;
+    transform-origin: 50% 50%;
     transform: rotate(-8deg);
 }
 
 .paragraph:hover {
     top: 20%;
-    transition: 2s;
-    animation-iteration-count: infinite;
+    transition: .5s;
     transform: rotate(0deg);
+    transition-timing-function: linear;
+    transform-origin: 50% 50%;
 }
 
 .paragraph-text {
