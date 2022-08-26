@@ -176,7 +176,7 @@
 }
 
 .img {
-    background: url(/assets/img/marvel.jpg) top center /cover no-repeat;
+    background: url(../img/marvel.jpg) top center /cover no-repeat;
     background-position: 0px -43px;
     height: 65vh;
     width: 100%;
