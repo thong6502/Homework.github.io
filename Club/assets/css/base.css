@@ -1,0 +1,16 @@
+:root {
+    --color-content-main:#d8797f;
+    --color-primary:#58215e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}

@@ -1,0 +1,123 @@
+
+.main {
+    height: 100vh;
+    background: #f9f9f9;
+}
+
+.container {
+    background: #fff;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title-header {
+    text-align: center;
+    color: #1d13af;
+    padding: 1.6rem;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.background-main {
+    --width-left: 37%;
+    --width-right: calc(90% - var(--width-left));
+    width: 100%;
+    height: 80%;
+    background: #ccc;
+    background: url(../img/bien.jpg) top center /cover no-repeat;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.box {
+    background: rgb(72 29 76 / 92%);
+    width: var(--width-left);
+    height: 90%;
+    margin-top: 1.6rem;
+    margin-left: 2.7rem;
+}
+
+.img {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background: url(../img/img.jpg) top center /cover no-repeat;
+    top: 6.1rem;
+    left: 7.4rem;
+    box-shadow: 0.3rem 0.2rem 8px #222;
+    
+}
+
+.content {
+    width: var(--width-right);
+    padding: 3.6rem;
+}
+
+.content-header {
+    font-size: 2rem;
+    color: var(--color-content-main);
+    font-weight: bold;
+}
+
+.content > h2 {
+    font-size: 3rem;
+    padding: 0.8rem 0 0;
+    color: var(--color-content-main);
+    font-weight: bold;
+}
+
+.icon-main {
+    font-size: 4.1rem;
+    color: var(--color-primary);
+    margin: 1.8rem 0;
+}
+
+.paragraph {
+    font-style: italic;
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.footer {
+    color: var(--color-primary);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3.2rem 0;
+}
+
+.footer-items {
+    width: 50%;
+    display: flex;
+    margin: 1.6rem 0;
+}
+
+.icon-play {
+    font-size: 2.4rem;
+    padding: 2.5rem;
+    border: 0.2rem  dashed var(--color-primary);
+    border-radius: 50%;
+}
+
+.footer-content {
+    padding-left: 0.8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content p {
+    font-size: 1.4rem;
+    padding-bottom: 0.6rem;
+    text-transform: uppercase;
+}
+
+.footer-content h2 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+
+}
+
