@@ -1,0 +1,159 @@
+body {
+    height: 100vh;
+    background: url(../img/thuyen.jpg) top center /cover no-repeat;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title-header {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.box-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-main1 {
+    width: 60%;
+    background: #fff;
+}
+
+.box-sub1 {
+    margin: 3.2rem;
+}
+
+.title-box-sub1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+    color: #333;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav > li {
+    width: 49%;
+}
+
+input {
+    width: 100%;
+    height: 2.8rem;
+}
+
+.nav li:last-child {
+    width: 100%;
+}
+
+.nav li:last-child input {
+    height: 28rem;
+}
+
+.nav-sub > p {
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+    color: #005aff;
+}
+
+.btn {
+    margin-top: 1.6rem;
+    display: inline-block;
+    background: #ff0d50;
+    color: #fff;
+    width: 7rem;
+    font-size: 1.4rem;
+    height: 3.4rem;
+}
+
+.btn:hover {
+    background: #f9376c;
+}
+
+.box-main2 {
+    width: 39%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-main2-first {
+    background: #200052;
+    height: 52%;
+}
+
+.box-sub2 {
+    margin: 32px;
+}
+
+.box-sub2 > p {
+    font-size: 1.5rem;
+}
+
+.items {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.items > i {
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    background: #005aff;
+}
+
+.items > p {
+    font-size: 1.4rem;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.socal {
+    margin-top: 4.3rem;
+}
+
+.icon-socal {
+    font-size: 2.5rem;
+    color: #ccc;
+}
+
+.icon-socal + .icon-socal {
+    margin-left: 12px;
+}
+
+.icon-socal:hover {
+    color:#aaa;
+}
+
+.box-main2-last {
+    height: 46%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+ }
+
+ textarea {
+    height: 28rem;
+    width: 100%;
+    color: #000;
+    resize: none;
+ }
+
+ input:focus::placeholder {
+    color:red;
+ }
+
+ input {
+    color: #000;
+ }
